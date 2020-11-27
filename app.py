@@ -1,3 +1,3 @@
-import services.ui-service
+import services.uiService
 
 
