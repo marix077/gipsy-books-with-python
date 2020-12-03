@@ -24,6 +24,14 @@ class folder :
         
     def GetId(self) : 
         return self.__id
+
+    def RemoveBook(self, id) : 
+        for book in self.__books : 
+            if book.GetId() == id : 
+                self.__books.remove(book)
+                return True
+        
+        return False
     
     
 
