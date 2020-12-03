@@ -21,5 +21,10 @@ class folder :
     def AddBook(self, book) : 
         self.__books.append(book)
         self.__count += 1
+        
+    def GetId(self) : 
+        return self.__id
+    
+    
 
     
