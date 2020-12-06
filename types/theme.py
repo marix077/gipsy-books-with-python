@@ -1,10 +1,18 @@
+from uuid import uuid4
+
 class theme :
     #   fields
     __button_style = {}
     __label_style = {}
     __entry_style = {}
     __window_style = {}
+    __id = ""
     #######################
+    
+    #   constructor 
+    def __init__(self) : 
+        self.__id = uuid4()
+    ###############################################
     
     #   setters
     def SetButtonStyle(self, style) : 

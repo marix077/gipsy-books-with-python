@@ -1,4 +1,5 @@
-import uuid # for generate id
+from uuid import uuid4 # for generate id
+
 class folder : 
     #   fields
     __name = ""
@@ -9,7 +10,7 @@ class folder :
 
 
     def __init__(self, name) : 
-        self.__id = uuid.uuid4()
+        self.__id = uuid4()
         self.__name = name
 
     def SetName(self, name) : 
