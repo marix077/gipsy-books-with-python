@@ -100,8 +100,3 @@ class book :
     def __repr__(self):
         return f"book title:{self.BookTitle}   author:{self.Author}   publisher:{self.Publisher}"
 
-
-
-Who_replaced_my_cheese = book("Who replaced my cheese?" , "Spencer Johnson" , "yad aref" , "farsi" , "Transformation (Psychology)" , "964 - 7667 - 48 - 5" )
-
-print(Who_replaced_my_cheese)
