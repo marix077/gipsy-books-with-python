@@ -21,9 +21,3 @@ class book :
     #Returns book information
     def __repr__(self):
         return f"book title:{self.__bookTitle}   author:{self.__author}   publisher:{self.__publisher}"
-
-
-
-keatb = book("kir" , "kooni" , "koskesh" , "farsi" , "gay", "koon dadan")
-
-print(keatb)
