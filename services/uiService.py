@@ -33,9 +33,9 @@ class ui(tkinter.Tk) :
         self.__file_menu.add_command(label = "Add Book", command = self.not_implement)
         self.__file_menu.add_command(label = "Add Folder", command = self.not_implement)
         self.__file_menu.add_command(label = "Add Tag", command = self.not_implement)
+        self.__file_menu.add_separator()
         self.__file_menu.add_command(label = "Exit", command = self.not_implement)
         self.__menu_bar.add_cascade(label = "File", menu = self.__file_menu)
-
         self.__edit_menu = tkinter.Menu(self.__menu_bar, tearoff=0)
         self.__edit_menu.add_command(label = "Edit Book", command = self.not_implement)
         self.__edit_menu.add_command(label = "Edit Folder", command = self.not_implement)
