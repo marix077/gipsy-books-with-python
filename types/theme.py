@@ -6,6 +6,7 @@ class theme :
     __label_style = {}
     __entry_style = {}
     __window_style = {}
+    __menu_style = {}
     __id = ""
     #######################
     
