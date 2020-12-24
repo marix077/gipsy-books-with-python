@@ -15,8 +15,8 @@ class book :
         self.__author = author
         self.__publisher = publisher
         self.__language = language
-        self.__subject = shabok
-        self.__shabok = subject
+        self.__subject = subject
+        self.__shabok = shabok
 
     #Returns book information
     def __repr__(self):
