@@ -1,13 +1,12 @@
 from sys import path
-path.append("./types")
 path.append("./services")
 
 from uiService import ui
-from theme import theme
+from managerService import manager
 
 class app : 
     def __init__(self): 
         self.__ui = ui(self, "gipsy", width="800", height="600", x="100", y="100")
-        self.__theme = theme()
+        self.__manager = manager()
 
 
